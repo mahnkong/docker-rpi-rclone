@@ -2,7 +2,7 @@ FROM hypriot/rpi-alpine:3.5
 
 MAINTAINER Andreas Mahnke <mahnkong@gmx.de>
 
-ENV RCLONE_VERSION v1.36
+ENV RCLONE_VERSION v1.38
 
 RUN apk update \
     && apk upgrade \
